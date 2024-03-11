@@ -16,9 +16,10 @@
     left: 50%;
     transform: translate(-50%, -50%);*/
     /*background-color: rgba(255,255,255,.2);*/
-    background-color: #161E54;
+    background-color: #FF9B6A;
     width: 100%;
     padding: 3rem 0;
+    text-align: center;
 }
 
 /* =================================================================== */
@@ -225,7 +226,10 @@ article a:hover {
 .tem li {list-style-type: square;}
 
 @media (min-width:768px){
-    #kezd, .cim {width: 80%; margin: auto;}
+    #kezdtext, #kezd, .cim {
+        width: 80%;
+        margin: auto;
+    }
     section {
         display: grid;
         grid-template-columns: 50% 50%;
