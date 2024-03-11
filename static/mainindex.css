@@ -1,0 +1,236 @@
+#kezd {
+    /*background-color: rgba(255,255,255,.8);*/
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+#kezd h1 {font-family: 'Inter', sans-serif;}
+
+#kezd img {display: block; width: 100%;}
+
+#kezdtext {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    /*background-color: rgba(255,255,255,.2);*/
+    background-color: #161E54;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+/* =================================================================== */
+
+.cim {
+    background-color: #FF9B6A;
+    padding: 1em;
+    text-align:center;
+}
+
+.cim h1 {
+    margin:1em;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* =================================================================== */
+/*
+main h1 {
+    background-color: rgba(195,7,63,.8);
+    padding: .5em;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+*/
+/* =================================================================== */
+
+aside {
+    /*background-color: rgba(26,26,29,.9);*/
+    /*border-radius: 30px 0 0 30px;*/
+    padding: 1rem;
+    color: black;
+}
+
+aside h1, aside h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+aside h2, aside h3 {
+    margin: 1rem;
+    text-align: center;
+}
+
+aside ol, aside p {
+    margin: 1rem;
+    text-align: justify;
+}
+
+/*
+article h2 {
+    color: white;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    padding: .5em;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+*/
+
+aside a, article a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    /*color: #FFF6F4;*/
+    color: black;
+}
+
+aside a:hover {
+    text-decoration:underline;
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+}
+
+article a:hover {
+    /*background-image: linear-gradient(to right, white, rgba(255,0,0,.8));*/
+    background-color: white;
+    color: black;
+}
+
+.assarga {
+    background-color: #FF5151;
+    color: white;
+}
+
+.kepa a {color: white;}
+.kepa a:hover {color: black;}
+
+.arkek {
+    background-color: /*#E14D2A;*/ #FF9B6A;
+}
+.askek {
+    background-color: #88E0EF;
+}
+.askek a, .assarga a {color: red;}
+
+#arkre {
+    background-image: url('typewriter-1170657_1280.jpg');
+    background-size:cover;
+}
+
+#armat {
+    background-image: url('math-work-4711302_1280.jpg');
+    background-size: cover;
+}
+
+#argrafika {
+    background-image: url('ai-generated-8166706_1920.png');
+    background-size:cover;
+}
+
+#arsing {
+    background-image: url('singer-2606347_1920.jpg');
+    background-size:cover;
+}
+
+#arkep {
+    background-image: url('woman-2435605_1280.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#arszgr {
+    background-image: url('laserwallp.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+/*#as3d {
+    background-image: url('spherical-ball-joint-746194_1280.jpg');
+    background-size:cover;
+}
+
+#as3d h2, #as3d p {
+    background-color: rgba(0,0,0,.9);
+    color: white;
+}*/
+
+#armocap {
+    background-image: url('avatar-1738010_1920.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#arszin {
+    background-image: url('enactment-258631_1920.jpg');
+    background-size:cover;
+    background-position: top;
+}
+
+#artanc {
+    background-image: url('dance-430554_1280-2.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#arbesz {
+    background-image: url('music-4507820_1280.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#arpod {
+    background-image: url('microphone-3381837_1920.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#arfilm {
+    background-image: url('sony-1455035_1280.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#armovie {
+    background-image: url('people-3109248_1280.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#arhang {
+    background-image: url('music-4507820_1280.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#arjatek {
+    background-image: url('game-controller-5619105_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.tem {
+    font-family: 'Cousine', sans-serif;
+    text-decoration: underline;
+    font-size:small;
+}
+.tem li {list-style-type: square;}
+
+@media (min-width:768px){
+    #kezd, .cim {width: 80%; margin: auto;}
+    section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: auto;
+        width: 80%;
+    }
+    aside h2, aside h3 {text-align: left;}
+}

@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    position: sticky;
+    top: 0;
+    z-index:100; /*ettől megy mögé a kép görgetésnél!*/
+}
+
+header {
+    background-color: #161E54;
+    color: white;
+    padding: 10px 0 10px 10%;
+
+    display: flex;
+    align-items:center;
+}
+
+header img {
+    height: 8rem;
+    padding-right: 2rem;
+    transition: .8s;
+}
+
+header h1 {
+    font-family: 'Noto Serif', serif;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+header a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: none;
+    color: white;
+    display: inline;
+}
+
+header a:hover {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: none;
+    color: orange;
+    transition: 0.3s;
+}
+
+nav {
+    text-align: center;
+    /*background-image: linear-gradient(to top, white, rgba(255,255,255,.5));*/
+    /*background-color: rgba(26,26,29,.8);*/
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+nav a {
+    text-decoration: none;
+    /*background-image: linear-gradient(to right, red, rgba(255,255,255,.8));*/
+    font-weight: bold;
+    color: black;
+    /*display: inline-block;*/
+    text-align: center;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* ======== TABS BEGIN ========
+.tab {
+    overflow: hidden;
+}
+  
+.tab button {
+    float: left;
+}
+  
+.tabcontent {
+    display: none;
+}
+======== TABS BEGIN ======== */
+
+footer {
+    background-color: rgb(195,7,63);
+    padding: 1rem;
+}
+
+#id {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+#id img {
+    width:4rem;
+    border-radius: 50%;
+}
+
+footer #cc {
+    display: block;
+    width: 7rem;
+    margin: auto;
+    border-radius: 0;
+}
+
+#idezet {
+    color: white;
+    text-align:center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#idezet a {
+    text-decoration: none;
+    font-size: 80%;
+    color: yellow;
+}
+
+#idezet a:hover {
+    color: white;
+    transition: .5s;
+}
+
+@media (min-width: 768px){
+    header h1 {
+        font-size: 3rem;
+    }
+
+    nav {
+        display: block;
+        grid-template-columns:none;
+    }
+
+    nav a {
+        padding: .5rem 0;
+        width: 8rem;
+        display: inline-block;
+    }
+    
+    footer {
+        width: 80%; margin: auto;
+    }
+
+    #id {
+        border-bottom: none;
+    }
+
+    .float {
+        float: left;
+        width: 33%;
+    }
+    #id::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .bal {text-align: left;}
+    .kozep {
+        border-left: 1px solid; border-right: 1px solid;
+    }
+    .jobb {text-align: right;}
+}

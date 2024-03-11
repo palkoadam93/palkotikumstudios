@@ -1,0 +1,49 @@
+main {
+    background-color: rgba(26,26,29,.9);
+}
+
+main h1 {
+    color: white;
+    text-align:center;
+    padding: 4rem;
+    font-family: 'Inter', sans-serif;
+}
+
+main h3 {
+    color: white;
+    background-color: #C3073F;
+    padding: 1em;
+    /*font-family: 'Cousine', monospace;*/
+    font-family: 'Inter', sans-serif;
+    font-variant: small-caps;
+}
+
+main a {
+    text-decoration: none;
+    color: yellow;
+}
+main a:hover {text-decoration: underline;}
+
+main p, ul, ol {
+    text-align: justify;
+    color: white;
+    padding: 1em; /*ez azért kell, mert különben kis méretnél a bekezdésben lévő szöveg sem kap paddinget!*/
+}
+
+main li {
+    line-height: 2em;
+    margin-left: 2em;
+}
+
+
+
+@media (min-width: 768px){
+    main {
+        width: 80%;
+        margin: auto;
+    }
+    main iframe {
+        display: block;
+        margin: auto;
+    }
+}
