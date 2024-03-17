@@ -1,0 +1,49 @@
+#kezdtext {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    /*background-color: rgba(255,255,255,.2);*/
+    background-color: #FF9B6A;
+    width: 100%;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.leir {
+    color: white;
+    padding: 1em;
+}
+
+section {
+    background-color:#88E0EF;
+    text-align: center;
+    margin: .2em;
+}
+
+section a {
+    display: block;
+    padding: 3em 0;
+    text-decoration: none;
+    color: black;
+}
+
+section a:hover {
+    background-color: #FF5151;
+}
+
+@media (min-width:768px){
+    #kezdtext {
+        width: 80%;
+        margin: auto;
+    }
+    main {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    section {
+        margin: 1em;
+    }
+}
