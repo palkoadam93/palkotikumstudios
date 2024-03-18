@@ -31,7 +31,8 @@ header img {
 }
 
 header h1 {
-    font-family: 'Noto Serif', serif;
+    /*font-family: 'Noto Serif', serif;*/
+    font-family: 'REM', sans-serif;
     display: inline-block;
     font-size: 2rem;
 }
