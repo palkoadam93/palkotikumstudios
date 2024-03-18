@@ -35,7 +35,8 @@ section a {
 }
 
 section a:hover {
-    background-color: #FF5151;
+    background-color: /*#FF5151;*/ #FF9B6A;
+    color: black;
 }
 
 .leiras {display: none;}
