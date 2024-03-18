@@ -16,9 +16,12 @@
 }
 
 section {
-    background-color:#88E0EF;
+    position: relative;
+    display: block;
     text-align: center;
     margin: .2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 
 section a {
@@ -26,11 +29,76 @@ section a {
     padding: 3em 0;
     text-decoration: none;
     color: black;
+
+    color: #fff;
 }
 
 section a:hover {
     background-color: #FF5151;
+    color: white;
 }
+
+
+#grafikus {
+    background-image: url('ai-generated-8166706_1920.png');
+    background-size:cover;
+    background-position:center;
+}
+
+#rajzfilmes {
+    background-image: url('covers/comic-4663596_640.png');
+    background-size:cover;
+    background-position:center;
+}
+
+#modellezo {
+    background-image: url('laserwallp.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#mocap {
+    background-image: url('avatar-1738010_1920.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#filmes {
+    background-image: url('sony-1455035_1280.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#jatekos {
+    background-image: url('game-controller-5619105_1280.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#iro {
+    background-image: url('typewriter-1170657_1280.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#szinesz {
+    background-image: url('enactment-258631_1920.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#tancos {
+    background-image: url('dance-430554_1280-2.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+#zenei {
+    background-image: url('singer-2606347_1920.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
 
 @media (min-width:768px){
     #kezdtext {
