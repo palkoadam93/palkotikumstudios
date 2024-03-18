@@ -19,7 +19,7 @@ section {
     position: relative;
     display: block;
     text-align: center;
-    margin: .2em;
+    /*margin: .2em;*/
     font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
@@ -46,7 +46,7 @@ section a:hover {
 }
 
 #rajzfilmes {
-    background-image: url('covers/comic-4663596_640.png');
+    background-image: url('comic-4663596_640.png');
     background-size:cover;
     background-position:center;
 }
@@ -110,8 +110,5 @@ section a:hover {
         margin: auto;
         display: grid;
         grid-template-columns: 50% 50%;
-    }
-    section {
-        margin: 1em;
     }
 }
