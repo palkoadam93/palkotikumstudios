@@ -20,24 +20,23 @@ section {
     display: block;
     text-align: center;
     /*margin: .2em;*/
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    color: white;
 }
 
 section a {
     display: block;
     padding: 3em 0;
     text-decoration: none;
-    color: black;
-
-    color: #fff;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 
 section a:hover {
     background-color: #FF5151;
-    color: white;
 }
 
+.leiras {display: none;}
 
 #grafikus {
     background-image: url('ai-generated-8166706_1920.png');
@@ -46,7 +45,7 @@ section a:hover {
 }
 
 #rajzfilmes {
-    background-image: url('comic-4663596_640.png');
+    background-image: url('sketch-3822649_640.jpg');
     background-size:cover;
     background-position:center;
 }
@@ -109,6 +108,8 @@ section a:hover {
         width: 80%;
         margin: auto;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 25% 25% 25% 25%;
+        /*grid-template-columns: 50% 50%;*/
     }
+    .leiras {display:block;}
 }
