@@ -225,4 +225,8 @@ article a:hover {
         width: 80%;
     }
     aside h2, aside h3 {text-align: left;}
+    .askek {
+        border-left: 1px dotted white;
+        border-right: 1px dotted white;
+    }
 }
