@@ -15,7 +15,8 @@ body {
 }
 
 header {
-    background-color: #161E54;
+    /*background-color: #161E54;*/
+    background-color: #FF5151;
     color: white;
     padding: 10px 0 10px 10%;
 
@@ -91,7 +92,8 @@ nav a:hover {
 ======== TABS BEGIN ======== */
 
 footer {
-    background-color: rgb(195,7,63);
+    /*background-color: rgb(195,7,63);*/
+    background-color: #FF5151;
     padding: 1rem;
 }
 
