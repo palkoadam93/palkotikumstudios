@@ -5,7 +5,8 @@
     transform: translate(-50%, -50%);*/
     /*background-color: rgba(255,255,255,.2);*/
     /*background-color: #FF9B6A;*/
-    background-color: white;
+    background-color: black;
+    color: white;
     width: 100%;
     padding: 3rem 1rem;
     text-align: center;
@@ -99,6 +100,7 @@ section a:hover {
     background-position:center;
 }
 
+.sarga {background-color: #FF5151;}
 
 @media (min-width:768px){
     #kezdtext {
